@@ -12,5 +12,5 @@ Installing the App
 4. Run "python manage.py migrate"
 5. Add your Twilio Credentials in settings.py (``TWILIO_ACCOUNT_SID = "XXXXXXXXXXXXXXXXXX"`` ``TWILIO_AUTH_TOKEN = "XXXXXXXXXXXXXXXXXXX"``)
 6. Import ``twilio_client`` instance from ``rate_limited_twilio.client`` model, then use the ``twilio_client`` instance as regular twilio client instance
-7. (Optional) Add ``MESSAGES_PER_TIME_PERIOD`` (int) and ``RATE_LIMIT_TIME_PERIOD`` (timedelta) settings to settings.py.
+7. (Optional) The default rate limit for each number is 5 messages per 30 mins. You can change this by adding ``MESSAGES_PER_TIME_PERIOD`` (int) and ``RATE_LIMIT_TIME_PERIOD`` (timedelta) settings to settings.py.
 
