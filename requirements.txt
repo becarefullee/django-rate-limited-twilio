@@ -1,0 +1,7 @@
+Django>=1.8
+Sphinx>=1.2.0
+django-phonenumber-field==2.0.0
+twilio==6.10.3
+wheel>=0.22.0
+django-twilio>=0.8.0
+celery==4.1.0
