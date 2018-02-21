@@ -17,6 +17,5 @@ or add "-e git+http://compepi.cs.uiowa.edu:9000/eli/django-rate-limited-twilio.g
 
 Running the Tests
 ==============
-
-Run the runtests.py file in root directory:  
-```python runtests.py```
+1. Install test requirements, ```pip install -r test_requirement.txt```
+2. Run the runtests.py file in root directory: ```python runtests.py```
