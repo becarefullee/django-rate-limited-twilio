@@ -7,7 +7,7 @@ App logic can be found in ```/rate_limited_twilio/```. Tests can be found in ``/
 Installing the App
 ==============
 
-1. Run ```pip install -e git+http://compepi.cs.uiowa.edu:9000/eli/django-rate-limited-twilio.git@master#egg=django-rate-limited-twilio```
+1. Run ```pip install -e git+http://compepi.cs.uiowa.edu:9000/eli/django-rate-limited-twilio.git@master#egg=django-rate-limited-twilio```   
 or add "-e git+http://compepi.cs.uiowa.edu:9000/eli/django-rate-limited-twilio.git@master#egg=django-rate-limited-twilio" to the requirements file in your project then run ``pip install -r requirements.txt``
 3. Add ``rate_limited_twilio`` to ``installed_apps`` in settings.py
 4. Run ``python manage.py migrate``
@@ -17,5 +17,5 @@ or add "-e git+http://compepi.cs.uiowa.edu:9000/eli/django-rate-limited-twilio.g
 
 Running the Tests
 ==============
-1. Install test requirements, ```pip install -r test_requirement.txt```
+1. Install test requirements: ```pip install -r test_requirement.txt```
 2. Run the runtests.py file in root directory: ```python runtests.py```

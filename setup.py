@@ -22,9 +22,9 @@ setup(
 
     # Package dependencies:
     install_requires=[
-        'twilio==6.10.3',
+        'twilio>=6.10.3',
         'Django>=1.8',
-        'django-phonenumber-field==2.0.0'
+        'django-phonenumber-field>=2.0.0'
     ],
 
     # Metadata for PyPI:
@@ -32,7 +32,7 @@ setup(
     classifiers=[
         'Framework :: Django',
         'Intended Audience :: Developers',
-        'License :: Public Domain',
+        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
@@ -45,5 +45,4 @@ setup(
         'Programming Language :: Python :: Implementation :: PyPy',
         'Topic :: Internet :: WWW/HTTP',
     ]
-
 )
