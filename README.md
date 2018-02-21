@@ -6,8 +6,8 @@ A reusable Django app for using with Twilio.  Limits the number of of text messa
 Installing the App
 ==============
 
-1. Run ``pip install -e git+http://compepi.cs.uiowa.edu:9000/eli/django-rate-limited-twilio.git@master#egg=django-rate-limited-twilio`` or
-add "-e git+http://compepi.cs.uiowa.edu:9000/eli/django-rate-limited-twilio.git@master#egg=django-rate-limited-twilio" to the requirements file in your project then run ``pip install -r requirements.txt``
+1. Run ```pip install -e git+http://compepi.cs.uiowa.edu:9000/eli/django-rate-limited-twilio.git@master#egg=django-rate-limited-twilio```
+or add "-e git+http://compepi.cs.uiowa.edu:9000/eli/django-rate-limited-twilio.git@master#egg=django-rate-limited-twilio" to the requirements file in your project then run ``pip install -r requirements.txt``
 3. Add ``rate_limited_twilio`` to ``installed_apps`` in settings.py
 4. Run "python manage.py migrate"
 5. Add your Twilio Credentials in settings.py (``TWILIO_ACCOUNT_SID = "XXXXXXXXXXXXXXXXXX"`` ``TWILIO_AUTH_TOKEN = "XXXXXXXXXXXXXXXXXXX"``)
@@ -17,5 +17,6 @@ add "-e git+http://compepi.cs.uiowa.edu:9000/eli/django-rate-limited-twilio.git@
 Running the Tests
 ==============
 
-Run the runtests.py file in root directory::
-    python runtests.py
+Run the runtests.py file in root directory:
+
+```python runtests.py```
